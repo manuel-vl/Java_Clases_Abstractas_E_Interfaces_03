@@ -14,6 +14,6 @@ public class RinesDeLujo implements Vehiculo{
 
     @Override
     public String getAccesorios() {
-        return vehiculo.getAccesorios()+"Rines de lujo";
+        return vehiculo.getAccesorios()+" Rines de lujo";
     }
 }

@@ -1,19 +1,19 @@
 package interface_vehiculos;
 
-public class VehiculoReforzado implements  Vehiculo{
+public class ChapaProtectora implements Vehiculo{
     protected Vehiculo vehiculo;
 
-    public VehiculoReforzado(Vehiculo vehiculo) {
+    public ChapaProtectora(Vehiculo vehiculo) {
         this.vehiculo = vehiculo;
     }
 
     @Override
     public Double getPrecio() {
-        return vehiculo.getPrecio()+20.0;
+        return vehiculo.getPrecio()+15.0;
     }
 
     @Override
     public String getAccesorios() {
-        return vehiculo.getAccesorios() + " Vidrios reforzados";
+        return vehiculo.getAccesorios()+" Chapa protectora";
     }
 }
